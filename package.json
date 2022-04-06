@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --base-href csg/ && rm -r docs && mkdir docs && mv dist/csg/* docs",
+    "build": "ng build && rm -r docs && mkdir docs && mv dist/csg/* docs",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
